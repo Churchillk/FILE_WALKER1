@@ -32,7 +32,7 @@ except:
     pass
 
 Seek = input("enter name of file you wanna look for: ")
-os.chdir(r"C:\Users\USER\Desktop")  # here i have changed the current working directory
+os.chdir(r"C:\\")  # here i have changed the current working directory
 where_to_walk = os.getcwd()  # here we tell the loop where to search by getting the current working directory
 
 # the loop below prints the path, folders in each path and the files in each folder
